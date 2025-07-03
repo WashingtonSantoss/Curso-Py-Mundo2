@@ -10,6 +10,6 @@ parcela_mensal = valor_casa / (anos * 12)
 porcentagem_minima = salario*0.3 # Ou salario * 30 / 100
 
 if parcela_mensal > porcentagem_minima:
-    print("Foi NEGADO pois a parcela é de {} e 30% do seu salario é {}".format(parcela_mensal, porcentagem_minima))
+    print(f"Foi NEGADO pois a parcela é de {parcela_mensal} e 30% do seu salario é {porcentagem_minima}")
 else:
-    print("Foi APROVADO, com uma parcela de {}".format(parcela_mensal))
+    print(f"Foi APROVADO, com uma parcela de {parcela_mensal}")
